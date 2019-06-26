@@ -27,8 +27,14 @@ cd /var
 git clone https://github.com/gautiermichelin/docker-mariadb-x4.git
 cd docker-mariadb-x4
 docker-compose create
+docker-compose up 
 ```
 
 ## Important informations
 
 Datas are inside /var/docker-mariadb-x4/mariadb subfolders : db1 to db4.
+
+## Error message about network ?
+```
+docker-compose up --force-recreate
+```
