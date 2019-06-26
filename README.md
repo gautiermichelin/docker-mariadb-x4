@@ -30,6 +30,12 @@ docker-compose create
 docker-compose up 
 ```
 
+Note : if you want to run docker-compose in the background
+
+```
+docker-composer up &
+```
+
 ## Important informations
 
 Datas are inside /var/docker-mariadb-x4/mariadb subfolders : db1 to db4.
