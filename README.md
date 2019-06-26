@@ -15,17 +15,19 @@ https://docs.docker.com/compose/compose-file/#resources
 See https://docs.docker.com/compose/install/
 
 Summary for docker compose install
-
+```
 curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-
 chmod +x /usr/local/bin/docker-compose
+```
 
 ## Install
 
+```
 cd /var
 git clone https://github.com/gautiermichelin/docker-mariadb-x4.git
 cd docker-mariadb-x4
 docker-compose create
+```
 
 ## Important informations
 
