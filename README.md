@@ -7,3 +7,26 @@ This docker container project creates and runs 4 differents instances of MariaDB
 More informations on :
 
 https://docs.docker.com/compose/compose-file/#resources
+
+## Prerequisites
+
+### Install Docker compose
+
+See https://docs.docker.com/compose/install/
+
+Summary for docker compose install
+
+curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+chmod +x /usr/local/bin/docker-compose
+
+## Install
+
+cd /var
+git clone https://github.com/gautiermichelin/docker-mariadb-x4.git
+cd docker-mariadb-x4
+docker-compose create
+
+## Important informations
+
+Datas are inside /var/docker-mariadb-x4/mariadb subfolders : db1 to db4.
