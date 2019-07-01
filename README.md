@@ -10,6 +10,12 @@ https://docs.docker.com/compose/compose-file/#resources
 
 ## Prerequisites
 
+### Install Docker
+
+```
+apt install docker
+```
+
 ### Install Docker compose
 
 See https://docs.docker.com/compose/install/
