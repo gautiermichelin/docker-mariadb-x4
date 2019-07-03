@@ -12,9 +12,7 @@ https://docs.docker.com/compose/compose-file/#resources
 
 ### Install Docker
 
-```
-apt install docker
-```
+See https://docs.docker.com/install/linux/docker-ce/debian/
 
 ### Install Docker compose
 
